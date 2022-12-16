@@ -29,10 +29,10 @@ const Main = () => {
                 <div className='mb-3'>
                     <label htmlFor="wallet" className='primary-text fw-bold '>Wallet Address</label>
                     <br />
-                    <input id='wallet' className='w-100 w-lg-50 border px-2 py-1' placeholder='Wallet address...' type="text" />
+                    <input id='wallet' className='width border px-2 py-1' placeholder='Wallet address...' type="text" />
 
                     <p className='primary-text fw-bold mt-3 mb-0'>Request Type</p>
-                    <div className='mt-0 w-lg-50 d-flex justify-content-between'>
+                    <div className='mt-0 width d-flex justify-content-between'>
                         <input style={{ width: "48%" }} className="border px-2 py-1" disabled value="20 Test Link" type="text" />
                         <input style={{ width: "48%" }} className="border px-2 py-1" disabled value="0.5 ETH" type="text" />
                     </div>

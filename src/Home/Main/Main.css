@@ -42,3 +42,14 @@ td {
     display: block;
     overflow-x: auto;
 }
+
+.width {
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .width {
+        width: 100%;
+    }
+}
