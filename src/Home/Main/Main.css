@@ -1,0 +1,44 @@
+.main {
+    background-color: white;
+    padding: 30px;
+}
+
+.warning {
+    background-color: #eef2fe;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.fit {
+    border: 1px solid #eee;
+    padding: 8px;
+    font-size: 14px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+.inactive {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.active {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.visible {
+    display: block;
+    overflow-x: auto;
+}

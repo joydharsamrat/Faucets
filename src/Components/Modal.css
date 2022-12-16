@@ -1,0 +1,15 @@
+.modal-img {
+    margin-top: 20px;
+    gap: 10%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(245, 248, 250);
+    padding: 20px;
+}
+
+.close {
+    cursor: pointer;
+}
